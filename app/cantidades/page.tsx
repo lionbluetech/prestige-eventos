@@ -198,7 +198,7 @@ export default function CantidadesPage() {
 
           {/* Sliders tragos */}
           <div className="bg-zinc-950 border border-yellow-700/30 rounded-xl px-2 sm:px-3 py-2 shrink-0">
-            <p className="text-yellow-500 text-xs uppercase tracking-wide mb-1.5">¿Cuál es la preferencia de tus invitados?</p>
+            <p className="text-yellow-500 text-xs uppercase tracking-wide mb-1.5">¿Cuál es la preferencia de tus invitados? selecciona el coctel para ver ingredientes</p>
             <div className="flex gap-2 sm:gap-3 overflow-x-auto pb-1">
               {detallePonderado.map((item, i) => {
                 const peso = pesos[item.trago] || 0;
