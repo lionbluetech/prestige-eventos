@@ -133,7 +133,7 @@ export default function Home() {
           {/* Info trago */}
           <div className={`transition-all duration-500 ${animando ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
             {slide.tipo === "trago" ? (
-              <div className="border-t border-yellow-500/20 pt-3 sm:pt-6">
+              <div className="border-t border-yellow-500/20 pt-6 sm:pt-10">
                 <p className="text-yellow-500 text-xs uppercase tracking-widest mb-1">Trago destacado</p>
                 <h2 className="text-lg sm:text-3xl font-semibold mb-1">{slide.nombre}</h2>
                 <p className="text-zinc-400 text-xs sm:text-sm mb-2 hidden sm:block">{slide.descripcion}</p>
